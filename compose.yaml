@@ -1,0 +1,7 @@
+include:
+- path: airflow/compose.yaml
+- path: postgres/compose.yaml
+
+# This file is used to run all the services together with a single command.
+# File names updated to follow naming convention
+#   https://docs.docker.com/compose/intro/compose-application-model/#the-compose-file
